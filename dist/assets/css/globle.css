@@ -8,7 +8,7 @@ button { text-align: center; border: none; }
 
 .clipTxt { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-#wholeWrapper { position: absolute; left: 0; right: 0; top: 0; bottom: 1.2rem; overflow: auto; }
+#wholeWrapper { position: absolute; left: 0; right: 0; top: 0; bottom: 0; overflow: auto; }
 
 #bigBanner { width: 10rem; height: 5.6rem; display: block; }
 
