@@ -1,0 +1,102 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, button, select, textarea {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font: {
+		family: 'Hiragino Sans GB', 'Simsun', sans-serif;
+	}
+	line-height: 1.5em;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+html, body {
+	-webkit-text-size-adjust: none;
+	background-color: #fff;
+	overflow-y: scroll;
+	height: 100%;
+}
+
+ul, ul > li {
+	list-style: none;
+}
+
+button{
+	text-align: center;
+	border: none;
+}
+
+#imgLogo{
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 3.92rem;
+	width: 2.2rem;
+	height: 2.2rem;
+}
+
+#wholeWrapper {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 1.2rem;
+	overflow: auto;
+}
+
+.bodyWithNoFooter > #wholeWrapper {
+	bottom: 0;
+}
+
+footer {
+	position: fixed;
+	display: table;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 1.2rem;
+	z-index: 1000;
+	border-top: 1px solid #e5e5e5;
+	
+	a {
+		display: table-cell;
+		vertical-align: middle;
+		width: 25%;
+		color: #666;
+		text-align: center;
+		font-size: 0.21rem;
+		line-height: 1.1em;
+		
+		img {
+			width: 0.667rem;
+			height: 0.667rem;
+			display: inline-block;
+		}
+	}
+	a:last-child {
+		border-right: 0;
+	}
+	a.foot-bar-current {
+		color: #333;
+	}
+}
+
+.clipTxt {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
