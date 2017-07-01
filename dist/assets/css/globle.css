@@ -28,8 +28,10 @@ header > nav > a:link { text-decoration: none; }
 
 .text { padding: 0 0.7rem; color: #1a1a1a; }
 
-.richContent { padding: 0.2rem 0.867rem; }
+.richContent { padding: 0.3rem 0.867rem 1rem 0.867rem; }
 
 .richContent img { max-width: 100%; }
+
+.richContent p { text-indent: 2em; }
 
 /*# sourceMappingURL=/assets/css/globle.css.map?v=d41d8cd&v= */
