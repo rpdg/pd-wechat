@@ -24,13 +24,14 @@ fis.match('{/assets/lib/zepto.min.js,/assets/lib/template-web.js,/assets/lib/uti
 });
 
 
-fis.match('{**.html,/assets/lib/util.js}', {
+fis.match('**.html', {
 	parser: fis.plugin('art-template', {
 		native: false, //默认为false，即简单语法模式
 		openTag: '{{', //默认为{{
 		closeTag: '}}',//默认为}}
 		compress: false,//默认为false
 		define: {
+			__layout: '/comm/layout.html',
 			apiServer: apiServer,
 			'comm/': {
 				release: false

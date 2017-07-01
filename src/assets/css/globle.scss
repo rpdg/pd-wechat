@@ -35,18 +35,15 @@ ul, ul > li {
 	list-style: none;
 }
 
-button{
+button {
 	text-align: center;
 	border: none;
 }
 
-#imgLogo{
-	position: fixed;
-	z-index: 999;
-	top: 0;
-	left: 3.92rem;
-	width: 2.2rem;
-	height: 2.2rem;
+.clipTxt {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 #wholeWrapper {
@@ -58,45 +55,54 @@ button{
 	overflow: auto;
 }
 
-.bodyWithNoFooter > #wholeWrapper {
-	bottom: 0;
+#bigBanner {
+	width: 10rem;
+	height: 5.6rem;
+	display: block;
 }
 
-footer {
-	position: fixed;
+header {
 	display: table;
 	width: 100%;
-	left: 0;
-	bottom: 0;
-	height: 1.2rem;
-	z-index: 1000;
-	border-top: 1px solid #e5e5e5;
+	height: 0.83rem;
+	box-sizing: border-box;
+	padding: 0;
 	
-	a {
-		display: table-cell;
-		vertical-align: middle;
-		width: 25%;
-		color: #666;
-		text-align: center;
-		font-size: 0.21rem;
-		line-height: 1.1em;
+	> nav {
+		width: 100%;
+		height: 100%;
+		display: table-row;
 		
-		img {
-			width: 0.667rem;
-			height: 0.667rem;
-			display: inline-block;
+		> a {
+			display: table-cell;
+			width: 50%;
+			height: 100%;
+			color: #202020;
+			text-align: center;
+			font-size: 0.35rem;
+			vertical-align: middle;
+			background-color: #d4d4d4;
+			
+			&.curr {
+				background-color: #716f70;
+				color: #fff;
+			}
+			
 		}
-	}
-	a:last-child {
-		border-right: 0;
-	}
-	a.foot-bar-current {
-		color: #333;
+		
 	}
 }
 
-.clipTxt {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+.title-1{
+	color: #46BADD;
+	font:{
+		size: 0.533rem;
+		weight: 900;
+	}
+	line-height: 3em;
+	text-indent: 0.67rem;
+}
+
+.text{
+	padding: 0 0.7rem;
 }

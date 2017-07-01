@@ -1,0 +1,39 @@
+<style>
+	#ulLogo > li {
+		display: inline-block;
+		width: 3.6rem;
+		height: 3.6rem;
+		margin: 0.5rem 0.2rem 0 0.87rem;
+		background-image: url("/assets/img/bg-logo.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		vertical-align: middle;
+	}
+	#ulLogo > li img{
+		display: block;
+		margin: auto;
+		max-width: 60%;
+		max-height: 60%;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+</style>
+
+<p class="title-1">06 民营外贸品牌示范企业</p>
+<p class="text">奖项诠释</p>
+<ul id="ulLogo">
+	<li>
+		<img src="/assets/img/logo-1.png" alt="" data-id="11">
+	</li>
+	<li>
+		<img src="/assets/img/logo-2.png" alt="">
+	</li>
+	<li></li>
+</ul>
+
+<script>
+	$('#ulLogo').on('click' , 'img' , function () {
+		location.href = 'intro.html?id=' + $(this).data('id');
+	});
+</script>
