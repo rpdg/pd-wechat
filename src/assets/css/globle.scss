@@ -103,6 +103,26 @@ header {
 	text-indent: 0.67rem;
 }
 
+.title-3{
+	color: #1b1b1b;
+	font:{
+		size: 0.4rem;
+		weight: 900;
+	}
+	text-align: center;
+	//line-height: 3em;
+}
+
 .text{
 	padding: 0 0.7rem;
+	color: #1a1a1a;
+}
+
+
+.richContent{
+	padding: 0.2rem 0.867rem;
+	
+	img{
+		max-width: 100%;
+	}
 }

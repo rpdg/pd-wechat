@@ -22,6 +22,12 @@ header > nav > a.curr { background-color: #716f70; color: #fff; }
 
 .title-1 { color: #46BADD; font-size: 0.533rem; font-weight: 900; line-height: 3em; text-indent: 0.67rem; }
 
-.text { padding: 0 0.7rem; }
+.title-3 { color: #1b1b1b; font-size: 0.4rem; font-weight: 900; text-align: center; }
+
+.text { padding: 0 0.7rem; color: #1a1a1a; }
+
+.richContent { padding: 0.2rem 0.867rem; }
+
+.richContent img { max-width: 100%; }
 
 /*# sourceMappingURL=/assets/css/globle.css.map?v=d41d8cd&v= */
