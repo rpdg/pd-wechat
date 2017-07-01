@@ -732,3 +732,8 @@
 127.0.0.1 - GET /assets/img/banner.png?v= HTTP/1.1 200 119932 - 2.384 ms
 127.0.0.1 - GET /assets/lib/libs.js?v= HTTP/1.1 200 49801 - 6.909 ms
 127.0.0.1 - GET /assets/css/globle.css.map?v=d41d8cd&v= HTTP/1.1 200 - - 0.965 ms
+127.0.0.1 - GET /index.html HTTP/1.1 200 3769 - 1.325 ms
+127.0.0.1 - GET /assets/css/globle.css?v= HTTP/1.1 200 2001 - 8.085 ms
+127.0.0.1 - GET /assets/lib/libs.js?v= HTTP/1.1 200 49801 - 8.003 ms
+127.0.0.1 - GET /assets/img/banner.png?v= HTTP/1.1 200 119932 - 7.799 ms
+127.0.0.1 - GET /assets/css/globle.css.map?v=d41d8cd&v= HTTP/1.1 200 - - 0.919 ms
