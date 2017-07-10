@@ -26,7 +26,7 @@ header > nav > a:link { text-decoration: none; }
 
 .title-3 { color: #1b1b1b; font-size: 0.4rem; font-weight: 900; text-align: center; }
 
-.text { padding: 0 0.7rem; color: #1a1a1a; }
+.text { padding: 0 0.7rem; color: #1a1a1a; line-height: 1.8em; text-indent: 2em; }
 
 .richContent { padding: 0.3rem 0.867rem 1rem 0.867rem; }
 
