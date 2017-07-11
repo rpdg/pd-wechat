@@ -1,10 +1,5 @@
-<style>
-	#tl{
-		width: 6.667rem;
-		display: block;
-		margin: 0.5rem auto;
-	}
-</style>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="tl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 748.7 1768.1" enable-background="new 0 0 748.7 1768.1" xml:space="preserve">
   <defs>
@@ -676,10 +671,3 @@
 	</g>
 </g>
 </svg>
-
-<script>
-
-	$('#icon-1,#icon-2,#icon-3,#icon-4,#icon-5,#icon-6,#icon-7,#icon-8').click(function(){
-		location.href='list-6.html'
-	});
-</script>
