@@ -233,3 +233,14 @@
 127.0.0.1 - GET /assets/img/banner.png?v= HTTP/1.1 304 - - 1.638 ms
 127.0.0.1 - GET /assets/lib/libs.js?v= HTTP/1.1 304 - - 1.068 ms
 127.0.0.1 - GET /assets/css/globle.css.map?v=d41d8cd&v= HTTP/1.1 304 - - 1.774 ms
+127.0.0.1 - GET /assets/css/globle.css.map?v=d41d8cd&v= HTTP/1.1 304 - - 0.929 ms
+127.0.0.1 - GET /main.html HTTP/1.1 304 - - 1.557 ms
+127.0.0.1 - GET /assets/css/globle.css?v= HTTP/1.1 304 - - 1.538 ms
+127.0.0.1 - GET /assets/img/banner.png?v= HTTP/1.1 304 - - 1.494 ms
+127.0.0.1 - GET /assets/lib/libs.js?v= HTTP/1.1 304 - - 0.931 ms
+127.0.0.1 - GET /assets/css/globle.css.map?v=d41d8cd&v= HTTP/1.1 304 - - 0.605 ms
+127.0.0.1 - GET /main.html HTTP/1.1 200 64145 - 27.833 ms
+127.0.0.1 - GET /assets/css/globle.css?v= HTTP/1.1 200 2091 - 3.106 ms
+127.0.0.1 - GET /assets/img/banner.png?v= HTTP/1.1 200 119932 - 3.255 ms
+127.0.0.1 - GET /assets/lib/libs.js?v= HTTP/1.1 200 45896 - 2.086 ms
+127.0.0.1 - GET /assets/css/globle.css.map?v=d41d8cd&v= HTTP/1.1 200 - - 1.206 ms
