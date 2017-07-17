@@ -26,12 +26,14 @@ header > nav > a:link { text-decoration: none; }
 
 .title-3 { color: #1b1b1b; font-size: 0.4rem; font-weight: 900; text-align: center; }
 
-.text { padding: 0 0.7rem; color: #1a1a1a; line-height: 1.8em; text-indent: 2em; }
+.text { padding: 0 0.7rem; color: #1a1a1a; line-height: 1.8em; text-indent: 2em; font-size: 14px; }
 
 .richContent { padding: 0.3rem 0.867rem 1rem 0.867rem; }
 
 .richContent img { max-width: 100%; }
 
 .richContent p { text-indent: 2em; }
+
+.richContent p, .richContent span { font-size: 14px; }
 
 /*# sourceMappingURL=/assets/css/globle.css.map?v=d41d8cd&v= */

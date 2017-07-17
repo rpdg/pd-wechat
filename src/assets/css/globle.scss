@@ -1,3 +1,6 @@
+$text-size:14px;
+
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -122,6 +125,7 @@ header {
 	color: #1a1a1a;
 	line-height: 1.8em;
 	text-indent: 2em;
+	font-size: $text-size;
 }
 
 
@@ -134,5 +138,8 @@ header {
 	
 	p{
 		text-indent: 2em;
+	}
+	p,span{
+		font-size: $text-size;
 	}
 }
