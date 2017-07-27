@@ -33,6 +33,7 @@ fis.match('**.html', {
 		define: {
 			__layout: '/comm/layout.html',
 			apiServer: apiServer,
+			title: '2017浦东国际贸易中心建设示范企业',
 			'comm/': {
 				release: false
 			}
